@@ -1,0 +1,253 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Us | Clayton County Water Authority</title>
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+<body>
+
+<!-- TOP BAR -->
+<div class="top-bar">
+  <div class="container">
+    <span class="top-bar-left">📞 770-960-5200 &nbsp;|&nbsp; 1600 Battle Creek Rd, Morrow, GA 30260</span>
+    <div class="top-bar-right">
+      <a href="pay.html">Pay My Bill</a>
+      <a href="#">My Account</a>
+      <a href="contact.html">Contact Us</a>
+      <a href="#">Accessibility</a>
+    </div>
+  </div>
+</div>
+
+<!-- HEADER -->
+<header>
+  <div class="container">
+    <div class="header-inner">
+      <a href="../index.html" class="logo-area" style="text-decoration:none">
+        <div class="logo-fallback" aria-hidden="true">CCWA</div>
+        <div class="logo-text">
+          <h1>Clayton County<br>Water Authority</h1>
+          <span>Morrow, Georgia</span>
+        </div>
+      </a>
+      <button class="menu-toggle" aria-label="Toggle menu">☰</button>
+      <nav class="main-nav" aria-label="Primary navigation">
+        <ul>
+          <li><a href="#">About Us ▾</a>
+            <div class="dropdown"><a href="#">Who We Are</a><a href="#">Board of Directors</a><a href="#">News &amp; Media</a></div>
+          </li>
+          <li class="active"><a href="#">Customer Service ▾</a>
+            <div class="dropdown">
+              <a href="pay.html">Pay My Bill</a>
+              <a href="#">Start/Stop Service</a>
+              <a href="report.html">Report an Issue</a>
+              <a href="contact.html">Contact Us</a>
+            </div>
+          </li>
+          <li><a href="#">Work With Us ▾</a>
+            <div class="dropdown"><a href="#">Careers</a><a href="#">Procurement</a></div>
+          </li>
+          <li><a href="#">Community Outreach ▾</a>
+            <div class="dropdown"><a href="#">Water Conservation</a><a href="#">Education</a></div>
+          </li>
+          <li><a href="#">Resources &amp; Facilities ▾</a>
+            <div class="dropdown"><a href="#">Water Quality Report</a><a href="#">Agendas &amp; Minutes</a></div>
+          </li>
+        </ul>
+      </nav>
+    </div>
+  </div>
+  <div class="quick-links-bar">
+    <div class="container">
+      <a href="pay.html"><span class="ql-icon">💳</span> Pay My Bill</a>
+      <a href="#"><span class="ql-icon">👤</span> My Account</a>
+      <a href="contact.html"><span class="ql-icon">📞</span> Contact Us</a>
+      <a href="#"><span class="ql-icon">📋</span> Agendas &amp; Minutes</a>
+      <a href="#"><span class="ql-icon">🔧</span> Procurement</a>
+      <a href="#"><span class="ql-icon">💧</span> Your Water</a>
+    </div>
+  </div>
+</header>
+
+<!-- PAGE HERO -->
+<div class="page-hero">
+  <div class="container">
+    <h1>Contact Us</h1>
+    <div class="breadcrumb">
+      <a href="../index.html">Home</a><span>›</span>
+      Contact Us
+    </div>
+  </div>
+</div>
+
+<!-- PAGE CONTENT -->
+<div class="page-content">
+  <div class="container">
+
+    <!-- CONTACT INFO CARDS -->
+    <div class="contact-info-grid">
+      <div class="ci-card">
+        <div class="ci-icon">📞</div>
+        <h3>Phone</h3>
+        <p><a href="tel:7709605200">770-960-5200</a><br>Mon–Fri, 8:00 AM – 5:00 PM<br><small>24-hour emergency line available</small></p>
+      </div>
+      <div class="ci-card">
+        <div class="ci-icon">📍</div>
+        <h3>Main Office</h3>
+        <p>1600 Battle Creek Road<br>Morrow, GA 30260<br>Mon–Fri, 8:00 AM – 5:00 PM</p>
+      </div>
+      <div class="ci-card">
+        <div class="ci-icon">✉️</div>
+        <h3>Mailing Address</h3>
+        <p>P.O. Box 520<br>Morrow, GA 30260<br>(Payments &amp; correspondence)</p>
+      </div>
+      <div class="ci-card">
+        <div class="ci-icon">🚨</div>
+        <h3>After-Hours Emergency</h3>
+        <p><a href="tel:7709605200">770-960-5200</a><br>Available 24 hours / 7 days<br><small>Water main breaks, major leaks</small></p>
+      </div>
+    </div>
+
+    <div class="content-layout">
+      <main>
+        <div class="form-section">
+          <h2>Send Us a Message</h2>
+          <p style="font-size:.88rem;color:var(--text-mid);margin-bottom:18px">Use the form below to contact our Customer Service team. For urgent matters such as water main breaks or service outages, please call <strong>770-960-5200</strong> directly.</p>
+          <form id="contact-form" novalidate>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="first-name">First Name <span class="req">*</span></label>
+                <input type="text" id="first-name" name="first_name" placeholder="First name" required>
+              </div>
+              <div class="form-group">
+                <label for="last-name">Last Name <span class="req">*</span></label>
+                <input type="text" id="last-name" name="last_name" placeholder="Last name" required>
+              </div>
+            </div>
+            <div class="form-row">
+              <div class="form-group">
+                <label for="email">Email Address <span class="req">*</span></label>
+                <input type="email" id="email" name="email" placeholder="your@email.com" required>
+              </div>
+              <div class="form-group">
+                <label for="phone-c">Phone Number</label>
+                <input type="tel" id="phone-c" name="phone" placeholder="(xxx) xxx-xxxx">
+              </div>
+            </div>
+            <div class="form-group">
+              <label for="account-c">Account Number (if applicable)</label>
+              <input type="text" id="account-c" name="account_number" placeholder="e.g. 123456-789">
+            </div>
+            <div class="form-group">
+              <label for="subject">Subject / Topic <span class="req">*</span></label>
+              <select id="subject" name="subject" required>
+                <option value="">— Select a topic —</option>
+                <option>Billing / Payment Question</option>
+                <option>Start or Stop Service</option>
+                <option>Water Quality Concern</option>
+                <option>Report a Leak or Issue</option>
+                <option>Construction / Development</option>
+                <option>Conservation Programs</option>
+                <option>General Inquiry</option>
+                <option>Other</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="message">Message <span class="req">*</span></label>
+              <textarea id="message" name="message" placeholder="Describe your question or concern…" required></textarea>
+            </div>
+            <div class="form-group" style="display:flex;align-items:flex-start;gap:10px">
+              <input type="checkbox" id="consent" name="consent" style="width:auto;margin-top:3px" required>
+              <label for="consent" style="font-weight:400;font-size:.86rem">I consent to CCWA storing my contact information to respond to this inquiry, in accordance with the <a href="#">Privacy Policy</a>.</label>
+            </div>
+            <button type="submit" class="btn-primary">Send Message</button>
+          </form>
+        </div>
+      </main>
+
+      <aside class="sidebar">
+        <div class="sidebar-card">
+          <h3>🕐 Office Hours</h3>
+          <dl class="sidebar-hours">
+            <dt>Monday – Friday</dt><dd>8:00 AM – 5:00 PM</dd>
+            <dt>Saturday – Sunday</dt><dd>Closed</dd>
+            <dt>Holidays</dt><dd>Closed (see Events Calendar)</dd>
+          </dl>
+        </div>
+        <div class="sidebar-card" style="border-left-color:#cc3300;background:#fff5f5">
+          <h3>🚨 Emergency Line</h3>
+          <p style="font-size:.84rem;color:#660000">For water main breaks, major leaks, or sewage overflows, call <strong><a href="tel:7709605200" style="color:#cc3300">770-960-5200</a></strong> — available 24/7.</p>
+        </div>
+        <div class="sidebar-card">
+          <h3>Quick Links</h3>
+          <ul>
+            <li><a href="pay.html">Pay My Bill</a></li>
+            <li><a href="report.html">Report an Issue</a></li>
+            <li><a href="#">Start / Stop Service</a></li>
+            <li><a href="#">Billing FAQ</a></li>
+            <li><a href="#">Financial Assistance</a></li>
+          </ul>
+        </div>
+        <div class="sidebar-card">
+          <h3>🌐 Connect With Us</h3>
+          <p style="font-size:.84rem;color:var(--text-mid);margin-bottom:10px">Follow CCWA for news, alerts, and conservation tips.</p>
+          <div style="display:flex;gap:10px">
+            <a href="#" style="background:var(--primary);color:#fff;padding:6px 12px;border-radius:4px;font-size:.8rem;font-weight:600">Facebook</a>
+            <a href="#" style="background:#c13584;color:#fff;padding:6px 12px;border-radius:4px;font-size:.8rem;font-weight:600">Instagram</a>
+            <a href="#" style="background:#ff0000;color:#fff;padding:6px 12px;border-radius:4px;font-size:.8rem;font-weight:600">YouTube</a>
+          </div>
+        </div>
+      </aside>
+    </div>
+  </div>
+</div>
+
+<!-- FOOTER -->
+<footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <div class="footer-logo-wrap">
+          <div class="footer-logo-icon">CCWA</div>
+          <div class="footer-logo-name">Clayton County Water Authority<small>Morrow, Georgia</small></div>
+        </div>
+        <p>Safe, reliable, and affordable water and wastewater services for Clayton County, Georgia.</p>
+        <address>1600 Battle Creek Road<br>Morrow, GA 30260<br>Phone: <a href="tel:7709605200" style="color:rgba(255,255,255,.75)">770-960-5200</a></address>
+      </div>
+      <div class="footer-col"><h4>About Us</h4><ul><li><a href="#">Who We Are</a></li><li><a href="#">Board of Directors</a></li><li><a href="#">News &amp; Media</a></li></ul></div>
+      <div class="footer-col"><h4>Customer Service</h4><ul><li><a href="pay.html">Pay My Bill</a></li><li><a href="#">My Account</a></li><li><a href="report.html">Report an Issue</a></li><li><a href="contact.html">Contact Us</a></li></ul></div>
+      <div class="footer-col"><h4>Resources</h4><ul><li><a href="#">Water Quality</a></li><li><a href="#">Agendas &amp; Minutes</a></li><li><a href="#">Careers</a></li></ul></div>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <div class="container" style="display:flex;justify-content:space-between;align-items:center;flex-wrap:wrap;gap:8px">
+      <span>© 2026 Clayton County Water Authority. All rights reserved.</span>
+      <div class="footer-bottom-links"><a href="#">Privacy Policy</a><a href="#">Accessibility</a><a href="#">Sitemap</a></div>
+    </div>
+  </div>
+</footer>
+
+<!-- CHAT WIDGET -->
+<div class="chat-widget">
+  <div class="chat-bubble">
+    <div class="chat-head">
+      <div><h4>CCWA Virtual Assistant</h4><p>Typically replies instantly</p></div>
+      <button class="chat-close" aria-label="Close chat">✕</button>
+    </div>
+    <div class="chat-messages">
+      <div class="chat-msg bot">Hello! You can also use the form on this page to reach us. How can I help?</div>
+    </div>
+    <div class="chat-input-area">
+      <input type="text" placeholder="Type a message…" aria-label="Chat message">
+      <button class="chat-send" aria-label="Send">➤</button>
+    </div>
+  </div>
+  <button class="chat-toggle" aria-label="Open chat">💬</button>
+</div>
+
+<script src="../js/main.js"></script>
+<script src="../js/chat.js"></script>
+</body>
+</html>
